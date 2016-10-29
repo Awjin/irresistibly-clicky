@@ -1,20 +1,18 @@
+/* Core style */
+
 .button {
     display: inline-block;
-    margin-right: 1em;
-    margin-bottom: 1em;
     border: none;
-    border-bottom: 4px solid rgba(0, 0, 0, .075);
+    padding: .3em 1em;
+    border-bottom: 4px solid rgba(0, 0, 0, 0);
     border-radius: 7px;
-    padding: .5em 1.15em;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, .33);
 
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    font-family: Tahoma, sans-serif;
-    font-weight: bold;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
     color: #FFFFFF;
-    text-shadow: 0 0 1px rgba(0, 0, 0, .33);
 
     outline: none;
     cursor: pointer;
@@ -37,17 +35,39 @@
 
 .button:active {
     opacity: .75;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
-    -webkit-transform: translateY(4px);
-    -moz-transform: translateY(4px);
-    transform: translateY(4px);
 }
 
 .button::-moz-focus-inner {
     border: 0;
 }
 
+
+/* Variations */
+.button.small {
+    font-size: 12px;
+    padding: .1em 1em 0 1em;
+}
+
+.button.large {
+    font-size: 24px;
+    padding: .4em 1em;
+}
+
+.button.shadow {
+    border-color: rgba(0, 0, 0, .075);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .33);
+}
+
+.button.motion.button:active {
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    transform: translateY(4px);
+}
+
+
+/* For demo purposes */
+
+.button { margin: 15px 15px 0 0; }
 .button.yellow { background: #FFCA28; }
-.button.orange { background: #FF7043; }
 .button.teal { background: #26A69A; }
 .button.gray { background: #607D8B; }
