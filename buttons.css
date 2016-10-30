@@ -1,73 +1,90 @@
-/* Core style */
+/* For demo */ .button { margin: 15px 15px 0 0; }
 
+/* Core style */
 .button {
     display: inline-block;
     border: none;
-    padding: .3em 1em;
     border-bottom: 4px solid rgba(0, 0, 0, 0);
-    border-radius: 7px;
+    border-radius: 6px;
 
-    font-size: 16px;
     font-family: Tahoma, sans-serif;
     text-align: center;
     text-decoration: none;
-    text-shadow: 0 0 1px rgba(0, 0, 0, .3);
-    color: #FFFFFF;
 
-    outline: none;
+    transition: opacity .15s ease-out;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
 }
 
-.button:link, .button:visited {
-    color: #FFFFFF
-}
-
 .button:hover {
-    opacity: 1;
-}
-
-.button:focus {
-    opacity: .75;
+    opacity: .66;
 }
 
 .button:active {
-    opacity: .75;
+    opacity: 1;
 }
 
 .button::-moz-focus-inner {
     border: 0;
 }
 
-
-/* Variations */
-.button.small {
-    font-size: 12px;
-    padding: .1em 1em 0 1em;
-}
-
-.button.large {
-    font-size: 24px;
-    padding: .4em 1em;
-}
-
-.button.shadow {
+/* Skeuomorphic */
+.button.skeuomorphic {
     border-color: rgba(0, 0, 0, .075);
     box-shadow: 0 2px 7px rgba(0, 0, 0, .33);
 }
 
-.button.motion.button:active {
+.button.skeuomorphic:hover {
+    opacity: 1;
+}
+
+.button.skeuomorphic:active {
     -webkit-transform: translateY(4px);
     -moz-transform: translateY(4px);
     transform: translateY(4px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .33);
 }
 
+/* Sizes */
+.button.small {
+    font-size: 12px;
+    padding: 0em 1.2em;
+}
 
-/* For demo purposes */
+.button.medium {
+    font-size: 16px;
+    padding: .3em 1.3em;
+}
 
-.button { margin: 15px 15px 0 0; }
-.button.yellow { background: #FFCA28; }
-.button.teal { background: #26A69A; }
-.button.gray { background: #607D8B; }
+.button.large {
+    font-size: 24px;
+    padding: .5em 1.3em;
+}
+
+/* Colors */
+.button {
+    background: #9E9E9E;
+    color: #FFFFFF;
+}
+
+.button:link, .button:visited {
+    color: #FFFFFF
+}
+
+.button.red {
+    background: #EF5350;
+}
+
+.button.green {
+    background: #66BB6A;
+}
+
+.button.yellow {
+    background: #FFCA28;
+}
+
+.button.blue {
+    background: #42A5F5;
+}
