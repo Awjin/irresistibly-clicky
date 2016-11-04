@@ -44,7 +44,7 @@
 /* Sizes */
 .button.small {
     font-size: 12px;
-    padding: .15em .9em .2em .9em;
+    padding: .2em .9em;
 }
 
 .button.medium {
@@ -54,17 +54,17 @@
 
 .button.large {
     font-size: 24px;
-    padding: .2em .9em;
+    padding: .15em 1em .2em 1em;
 }
 
 /* Colors */
 .button {
     background: #9E9E9E;
-    color: #FFFFFF;
+    color: #FDFEFF;
 }
 
 .button:link, .button:visited {
-    color: #FFFFFF
+    color: #FDFEFF;
 }
 
 .button.red {
@@ -80,5 +80,5 @@
 }
 
 .button.blue {
-    background: #0091EA;
+    background: #2196F3;
 }
