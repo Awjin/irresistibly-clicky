@@ -4,50 +4,31 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="demo.css" />
-    <link rel="stylesheet" href="icb.css" />
+    <link rel="stylesheet" href="icb-chip.css" />
+    <link rel="stylesheet" href="icb-classic.css" />
     <title>So clicky!</title>
 </head>
 
 <body>
-    <div class="container first">
-        <h1>Irresistibly<br>Clicky<br>Buttons</h1>
-        <p><a href="#?" class="icb one">Press me</a></p>
-        <p><a href="#?" class="icb two">No, press me!</a></p>
-        <p><a href="#?" class="icb three">I'm the cutest</a></p>
-        <p><a href="#?" class="icb four">Says who?</a></p>
-        <p><a href="https://github.com/awjin/irresistibly-clicky-buttons" class="source">Source</a></p>
+    <div class="container">
+        <h1>Irresistibly Clicky Buttons</h1>
+        <a href="https://github.com/awjin/irresistibly-clicky-buttons" class="source">source</a>
     </div>
 
     <div class="container">
-        <pre>.icb { display: inline-block;
-       padding: .66rem 1rem .56rem 1rem;
-
-       border-top: none;
-       border-right: 1px solid rgba(0, 0, 0, .025);
-       border-bottom: 4px solid rgba(0, 0, 0, .05);
-       border-left: 1px solid rgba(0, 0, 0, .025);
-       border-radius: 4px;
-
-       font-size: 95%;
-       line-height: 1;
-       letter-spacing: 0.05rem;
-       color: #fff;
-       text-decoration: none;
-
-       text-shadow: 0 0 1px rgba(0, 0, 0, .25);
-       box-shadow: 0 2px 6px rgba(0, 0, 0, .25); }
-
-.icb:hover,
-.icb:focus,
-.icb:active { text-decoration: none; }
-
-.icb:active { border-bottom-width: 2px;
-              padding-bottom: calc(.56rem + 2px);
-              box-shadow: 0 0 3px rgba(0, 0, 0, .25);
-              transform: translateY(6px) scale(.975, .975); }
-        </pre>
+        <a class="icb-classic one" href="#?">Press me</a>
+        <a class="icb-classic two" href="#?">No, press me!</a>
+        <a class="icb-classic three" href="#?">I'm the cutest</a>
+        <a class="icb-classic four" href="#?">Says who?</a>
     </div>
+
+    <div class="container">
+        <a class="icb-chip one" href="#?">&plus;</a>
+        <a class="icb-chip two" href="#?">&minus;</a>
+        <a class="icb-chip three" href="#?">&times;</a>
+        <a class="icb-chip four" href="#?">&divide;</a>
+    </div>
+</label>
 </body>
 </html>

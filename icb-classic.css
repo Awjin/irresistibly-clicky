@@ -1,0 +1,23 @@
+.icb-classic { display: inline-block;
+               border-top: none;
+               border-right: 1px solid rgba(0, 0, 0, .025);
+               border-bottom: 4px solid rgba(0, 0, 0, .05);
+               border-left: 1px solid rgba(0, 0, 0, .025);
+               border-radius: 4px;
+               padding: .66rem 1rem .56rem 1rem;
+               font-size: 95%;
+               line-height: 1;
+               letter-spacing: 0.05rem;
+               color: #fff;
+               text-decoration: none;
+               text-shadow: 0 0 1px rgba(0, 0, 0, .25);
+               box-shadow: 0 2px 6px rgba(0, 0, 0, .25); }
+
+.icb-classic:hover,
+.icb-classic:focus,
+.icb-classic:active { text-decoration: none; }
+
+.icb-classic:active { border-bottom-width: 2px;
+                      padding-bottom: calc(.56rem + 2px);
+                      box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+                      transform: translateY(6px) scale(.975, .975); }
