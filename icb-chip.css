@@ -10,11 +10,12 @@
             text-decoration: none;
             color: #fff;
             text-shadow: 0 0 4px rgba(0, 0, 0, .25);
-            box-shadow: 0 15px 20px rgba(0, 0, 0, .25);
+            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, .25);
             transition: all .15s ease;
             transition-property: box-shadow, transform; }
 
-.icb-chip:focus { box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+.icb-chip:focus { box-shadow: 0 2.5px 5px rgba(0, 0, 0, .4);
+                  padding-top: calc(1rem - 7px);
                   padding-bottom: calc(1rem - 3px);
                   border-bottom-width: 5px;
                   transform: translateY(15px) scale(.9, .66); }
