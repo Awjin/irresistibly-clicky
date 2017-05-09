@@ -1,7 +1,7 @@
 .icb-check { display: inline-block;
              height: 25px;
              width: 25px;
-             border-radius: 5%;
+             border-radius: 2px;
              border: 2px solid rgba(0, 0, 0, .15);
              padding: 5px;
              background: #bcb;
@@ -11,33 +11,13 @@
              text-decoration: none;
              color: rgba(256, 256, 256, .9);
              text-shadow: 0 0 4px rgba(0, 0, 0, .25);
-             box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-             transition: all .1s ease-out; }
+             box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+}
 
-.icb-check:active { box-shadow: 0 1px 2.5px rgba(0, 0, 0, .3);
-                    transform: scale(.925, .9) rotate(5deg); }
+.icb-check:active { box-shadow: .5px 1px 2.5px rgba(0, 0, 0, .25);
+                    transform: scale(.975, .95) translateY(4px) rotate(5deg); }
 
 .icb-check:focus::after { position: absolute;
                           margin-top: 2px;
                           margin-left: -7.5px;
                           content: '\2713'; }
-
-.icb-check.one:hover,
-.icb-check.one:active,
-.icb-check.one:focus { background: #81c47a; }
-.icb-check.one:focus { box-shadow: 0 2px 5px #81c47a; }
-
-.icb-check.two:hover,
-.icb-check.two:active,
-.icb-check.two:focus { background: #5db2a8; }
-.icb-check.two:focus { box-shadow: 0 2px 5px #5db2a8; }
-
-.icb-check.three:hover,
-.icb-check.three:active,
-.icb-check.three:focus { background: #4f84c2; }
-.icb-check.three:focus { box-shadow: 0 2px 5px #4f84c2; }
-
-.icb-check.four:hover,
-.icb-check.four:active,
-.icb-check.four:focus { background: #6e5fb4; }
-.icb-check.four:focus { box-shadow: 0 2px 5px #6e5fb4; }
