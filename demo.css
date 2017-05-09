@@ -77,8 +77,10 @@ a.source:active { border-bottom-style: solid;
 
 .icb-classic { background: #81c47a; }
 .icb-chip { background: #5db2a8; }
-.icb-check { background: #4f84c2; }
-/* { background: #6e5fb4; } */
-/* { background: #81c47a; } */
-/* { background: #5db2a8; } */
+.icb-check:hover,
+.icb-check:active,
+.icb-check:focus { background: #4f84c2; }
 /* { background: #4f84c2; } */
+/* { background: #6e5fb4; } */
+/* { background: #5db2a8; } */
+/* { background: #81c47a; } */
