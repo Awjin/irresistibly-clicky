@@ -23,20 +23,12 @@ a.source:hover,
 a.source:focus,
 a.source:active { opacity: .66; }
 
-.one { background: #81c47a; }
-.two { background: #5db2a8; }
-.three { background: #4f84c2; }
-.four { background: #6e5fb4; }
-
-.icb-check.one:hover,
-.icb-check.one:active,
-.icb-check.one:focus { background: #81c47a; }
-.icb-check.two:hover,
-.icb-check.two:active,
-.icb-check.two:focus { background: #5db2a8; }
-.icb-check.three:hover,
-.icb-check.three:active,
-.icb-check.three:focus { background: #4f84c2; }
-.icb-check.four:hover,
-.icb-check.four:active,
-.icb-check.four:focus { background: #6e5fb4; }
+.icb-classic { background: #81c47a; }
+.icb-chip { background: #5db2a8; }
+.icb-check:hover,
+.icb-check:active,
+.icb-check:focus { background: #4f84c2; }
+/*{ background: #4f84c2; }*/
+/* { background: #6e5fb4; }*/
+/*{ background: #5db2a8; }*/
+/*{ background: #81c47a; }*/
