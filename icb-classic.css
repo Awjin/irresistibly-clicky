@@ -11,11 +11,13 @@
                color: rgba(256, 256, 256, .9);
                text-decoration: none;
                text-shadow: 0 0 1px rgba(0, 0, 0, .25);
-               box-shadow: 0 2px 6px rgba(0, 0, 0, .25); }
+               box-shadow: 0 2px 6px rgba(0, 0, 0, .25);
+               transition: opacity .1s ease; }
 
 .icb-classic:hover,
 .icb-classic:focus,
-.icb-classic:active { text-decoration: none; }
+.icb-classic:active { outline: none;
+                      text-decoration: none; }
 
 .icb-classic:active { border-bottom-width: 2px;
                       padding-bottom: 11px);
