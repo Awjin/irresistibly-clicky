@@ -1,7 +1,7 @@
 .icb-chip { display: inline-block;
             height: 30px;
             width: 30px;
-            padding: 1rem;
+            padding: 18px 17px 14px 17px;
             border-radius: 50%;
             border-bottom: 2px solid rgba(0,0,0,.1);
             text-align: center;
@@ -15,7 +15,7 @@
             transition-property: box-shadow, transform; }
 
 .icb-chip:focus { box-shadow: 0 2.5px 5px rgba(0, 0, 0, .4);
-                  padding-top: calc(1rem - 7px);
-                  padding-bottom: calc(1rem - 3px);
+                  padding-top: 13px;
+                  padding-bottom: 11px;
                   border-bottom-width: 5px;
                   transform: translateY(15px) scale(.9, .75); }

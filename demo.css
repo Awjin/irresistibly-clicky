@@ -1,10 +1,9 @@
 html { padding: 15vh 1.5rem 20vh 1.5rem;
        background: #efe;
        text-align: center;
-       font-family: Tahoma, sans-serif;
+       font-family: 'PT Sans', Tahoma, sans-serif;
        font-size: 18px;
        line-height: 1.4;
-       letter-spacing: .05rem;
        color: #454; }
 
 body { display: flex;
@@ -14,14 +13,17 @@ body { display: flex;
 
 .container { margin-bottom: 4rem;}
 
-h1 { margin: 0 0 1rem 0; }
+h1 { margin: 0 0 1rem 0;
+     letter-spacing: .1rem; }
 
 a { margin: .75rem;}
 
-a.source { color: #676; }
+a.source { border-bottom: 1px dotted #454;
+           text-decoration: none;
+           color: #454; }
 a.source:hover,
 a.source:focus,
-a.source:active { opacity: .66; }
+a.source:active { border-bottom-style: solid; }
 
 .icb-classic { background: #81c47a; }
 .icb-chip { background: #5db2a8; }
