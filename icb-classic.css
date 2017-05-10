@@ -20,6 +20,6 @@
                       text-decoration: none; }
 
 .icb-classic:active { border-bottom-width: 2px;
-                      padding-bottom: 11px);
+                      padding-bottom: 11px;
                       box-shadow: 0 0 3px rgba(0, 0, 0, .25);
                       transform: translateY(6px) scale(.975, .975); }
