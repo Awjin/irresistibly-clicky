@@ -1,0 +1,29 @@
+.checkbox {
+  background: #bcb;
+  border-radius: 3px;
+  border: 3px solid rgba(0, 0, 0, .15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+  font-size: 18px;
+  height: 24px;
+  padding: 4px 2px 0 2px;
+  text-align: center;
+  text-shadow: 0 0 4px rgba(0, 0, 0, .25);
+  width: 24px;
+}
+
+.checkbox:active {
+  box-shadow: .5px 1px 2.5px rgba(0, 0, 0, .25);
+  transform: scale(.975, .95) translate3D(0, 4px, 0) rotate(7deg);
+}
+
+.checkbox:focus {
+  background: #4f84c2;
+  border-color: rgba(0, 0, 0, .25);
+}
+
+.checkbox:focus::after {
+  content: '\2713';
+  margin-left: -7px;
+  margin-top: 2px;
+  position: absolute;
+}

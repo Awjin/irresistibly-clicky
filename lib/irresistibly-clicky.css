@@ -1,0 +1,13 @@
+@import url("./src/button.css");
+@import url("./src/checkbox.css");
+@import url("./src/chip.css");
+
+.button,
+.checkbox,
+.chip {
+  color: rgba(256, 256, 256, .9);
+  display: inline-block;
+  line-height: 1;
+  outline: none;
+  text-decoration: none;
+}
