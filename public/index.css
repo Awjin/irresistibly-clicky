@@ -1,0 +1,60 @@
+html {
+  background: #efe;
+  color: #343;
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 70ch;
+  margin: 7rem auto 10rem auto;
+  gap: 4rem;
+}
+
+.link-to-github {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1.5rem;
+  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  color: rgb(101, 98, 255);
+  text-decoration: none;
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.link-to-github:hover,
+.link-to-github:focus,
+.link-to-github:active {
+  background: rgba(101, 98, 255, 0.2);
+}
+
+section {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 600%;
+  font-weight: 900;
+  font-style: italic;
+}
+
+p {
+  text-align: right;
+  font-size: 200%;
+  font-weight: 900;
+}

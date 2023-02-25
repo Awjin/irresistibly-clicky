@@ -1,0 +1,27 @@
+.chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color-light);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  padding: 1.2rem 1.5rem 1.1rem 1.5rem;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  color: var(--text-color);
+  box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.5);
+  transition: opacity 50ms ease, transform 50ms ease, box-shadow 50ms ease;
+}
+
+.chip:hover,
+.chip:active {
+  opacity: 0.9;
+}
+
+.chip:focus {
+  border-bottom-width: 5px;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.4);
+  padding-bottom: 0.8rem;
+  padding-top: 0.9rem;
+  transform: translateY(15px) scale(0.9, 0.75);
+}

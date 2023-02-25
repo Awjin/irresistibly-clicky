@@ -1,35 +1,40 @@
 <!DOCTYPE html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/reset.css" />
+    <link rel="stylesheet" href="./public/index.css" />
     <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./lib/irresistibly-clicky.css" />
-    <title>So clicky!</title>
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <title>Irresistibly Clicky</title>
+    <meta name="description" content="Extremely tactile UI" />
+    <script type="text/javascript" src="./index.js"></script>
   </head>
 
   <body>
+    <a class="link-to-github" href="https://github.com/awjin/irresistibly-clicky">&lt;/&gt;</a>
+
+    <div>
+      <h1>Irresistibly Clicky.</h1>
+    </div>
+
     <section>
-      <h1>Irresistibly Clicky</h1>
-      <p>
-        Experiments in minimal skeuomorphism.
-        <a href="https://github.com/awjin/irresistibly-clicky">Source</a>.
-      </p>
+      <button class="button">Press me</button>
+      <button class="button">No, press me!</button>
+      <button class="button">Clickety</button>
     </section>
 
     <section>
-      <a class="button" href="javascript:">Press me</a>
-      <a class="button" href="javascript:">No, press me!</a>
-      <a class="button" href="javascript:">Clickety</a>
+      <button class="toggle chip">1</button>
+      <button class="toggle chip">2</button>
+      <button class="toggle chip">3</button>
     </section>
 
     <section>
-      <a class="chip" href="javascript:">1</a>
-      <a class="chip" href="javascript:">2</a>
-      <a class="chip" href="javascript:">3</a>
-    </section>
-
-    <section>
-      <a class="checkbox" href="javascript:"></a>
-      <a class="checkbox" href="javascript:"></a>
-      <a class="checkbox" href="javascript:"></a>
+      <button class="toggle checkbox"></button>
+      <button class="toggle checkbox"></button>
+      <button class="toggle checkbox"></button>
     </section>
   </body>
 </html>
